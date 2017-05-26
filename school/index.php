@@ -188,7 +188,7 @@
               <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted, you must complete your one-year National Youth Service Corps (NYSC) before applying to Andela)</p>          
 
               <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted.
-              
+
               <p><i class="fa fa-check" style="color:#27ae60;"></i> Most importantly, you must embody Andela’s values: Excellence, Passion, Integrity and Collaboration</p>
           </div>
         </div>
@@ -203,21 +203,57 @@
         <center><h1>Apply Now</h1></center>
         <br>
         <br>
-        <div class="row" align="center"> 
-          <div class="col-md-6"> 
-            <button class="btn btn-primary my-2 my-sm-0 jme">Apply to Coding Smart Vocational</button> 
-          </div> 
-          <div class="col-md-6"> 
-            <button class="btn btn-primary my-2 my-sm-0">Apply to Coding Smart School</button> 
-          </div> 
-        </div>
+        <section class="row form" align="center" id="form"> 
+          <center>
+            <div class="row">
+              <div class="col-md-6">
+                <label for="name">Nama Kamu</label>
+                <input type="text" id="name" class="form-control" ><br>
+              </div>
+              <div class="col-md-6">
+                <label for="hp">No HP Kamu</label>
+                <input type="number" id="hp" class="form-control" ><br>
+              </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+              <div class="col-md-6">
+                <label for="alamat">Alamat Kamu</label>
+                <input type="text" id="alamat" class="form-control" ><br>
+              </div>
+              <div class="col-md-6">
+                <label for="email">Email Kamu</label>
+                <input type="email" id="email" class="form-control" ><br>
+              </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+              <div class="col-md-6">
+                <label for="watson">Sebutkan Riwayat Pendidikanmu</label>
+                <input type="text" id="watson" class="form-control" ><br>
+              </div>
+              <div class="col-md-6">
+                <label for="emma_watson">Masukan Tanggal Lahirmu</label>
+                <input type="date" id="emma_watson" class="form-control" ><br>
+              </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+              <div class="col-md-12">
+                <label for="alasan"><h3>Apa tujuanmu mengikuti Coding Smart School?</h3></label>
+                <textarea id="alasan" class="form-control" rows="4" style="width:70%">
+                </textarea>
+              </div>
+            </div>
+            <center><br><button class="btn btn-primary raised btn-lg" onclick="daftar()">DAFTAR</button></center>
+        </section>
         <br>
         <hr>
         <br>
         <center><h1>Diinisiasi Oleh</h1></center>
         <div class="row">
-          <div class="col-md-6"><img src="img/inisiator/mercysmart.png" alt="MercySmart" class="inisiator"></div>
-          <div class="col-md-6"><img src="img/inisiator/kominfo.png" alt="Kementrian Komunikasi dan Informatika Republik Indonesia" class="inisiator"></div>
+          <div class="col-md-6"><img src="../img/inisiator/mercysmart.png" alt="MercySmart" class="inisiator"></div>
+          <div class="col-md-6"><img src="../img/inisiator/kominfo.png" alt="Kementrian Komunikasi dan Informatika Republik Indonesia" class="inisiator"></div>
         </div>
       </div>      
 
