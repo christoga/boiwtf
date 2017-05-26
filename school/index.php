@@ -182,21 +182,14 @@
           <br>
           <hr>
           <br>
-          <div class="row" align="left">
-            <div class="col-md-6">              
-              <p><i class="fa fa-check" style="color:#27ae60;"></i> You must be a christian.</p>
-            </div>
-            <div class="col-md-6">              
-              <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted, you must complete your one-year National Youth Service Corps (NYSC) before applying to Andela)</p>
-            </div>
-          </div>
-          <div class="row" align="left">
-            <div class="col-md-6">              
-              <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted, you must complete your one-year National Youth Service Corps (NYSC) before applying to Andela)</p>
-            </div>
-            <div class="col-md-6">              
+          <div align="left">                
+              <p><i class="fa fa-check" style="color:#27ae60;"></i> You must be a christian.</p>   
+
+              <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted, you must complete your one-year National Youth Service Corps (NYSC) before applying to Andela)</p>          
+
+              <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted.
+              
               <p><i class="fa fa-check" style="color:#27ae60;"></i> Most importantly, you must embody Andela’s values: Excellence, Passion, Integrity and Collaboration</p>
-            </div>
           </div>
         </div>
       </div>      
