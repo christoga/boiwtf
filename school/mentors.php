@@ -6,7 +6,7 @@
     <meta name="description" content="Coding Smart adalah sebuah lembaga pendidikan generasi muda yang berfokus untuk mengajarkan programming secara lengkap sehingga mencetak generasi muda yang berkontribusi membangun Indonesia Digital.">
     <meta name="author" content="Coding Smart">
 
-    <title>Coding Smart: Team</title>
+    <title>Coding Smart: Mentors</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +16,7 @@
 
     <!-- Costum CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hr.scss">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,7 +35,7 @@
               Programs
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="http://codingsmartschool.id">Coding Smart School</a>
+              <a class="dropdown-item" href="">Coding Smart School</a>
               <a class="dropdown-item" href="/vocational">Coding Smart Vocational</a>
             </div>
           </li>
@@ -52,8 +53,11 @@
               <!-- <a class="dropdown-item" href="/press">Press Kit</a> -->
             </div>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.php">FAQ</a>
+          </li>
         </ul>
-        <center><button class="btn btn-primary my-2 my-sm-0" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfXa4L6gWG8JqJDFrd-JsXWVvfTY5YJGufRXDPpHRVbS-dhWg/viewform?c=0&w=1'" type="submit">Daftar Sekarang</button></center>
+        <center><button class="btn btn-primary my-2 my-sm-0" onclick="window.location.href='form.php'" type="submit">Daftar Sekarang</button></center>
       </div>
     </nav>
 
@@ -193,7 +197,7 @@
         <div class="col-md-6">              
           <p class="footer-company-name">© 2017 Coding Smart. All Rights Reserved.</p>
         </div>
-        <div class="col-md-6" align="center">
+        <div class="col-md-6" align="right">
           <!-- <p class="footer-company-about">
             <span>About the company</span>
             Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.

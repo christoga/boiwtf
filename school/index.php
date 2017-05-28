@@ -16,6 +16,7 @@
 
     <!-- Costum CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hr.scss">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,19 +29,16 @@
       </button>
       <a class="navbar-brand" href="http://codingsmart.id">Coding Smart</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" style="margin-top: 2px;">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Programs
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="http://codingsmartschool.id">Coding Smart School</a>
+              <a class="dropdown-item" href="">Coding Smart School</a>
               <a class="dropdown-item" href="/vocational">Coding Smart Vocational</a>
             </div>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Alumni</a>
-          </li> -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Company
@@ -51,29 +49,17 @@
               <a class="dropdown-item" href="/blog">Coding Smart Blog</a>
               <!-- <a class="dropdown-item" href="/press">Press Kit</a> -->
             </div>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.php">FAQ</a>
+          </li>
           </li>
         </ul>
-        <center><button class="btn btn-primary my-2 my-sm-0" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfXa4L6gWG8JqJDFrd-JsXWVvfTY5YJGufRXDPpHRVbS-dhWg/viewform?c=0&w=1'" type="submit">Daftar Sekarang</button></center>
+        <center><button class="btn btn-primary my-2 my-sm-0" onclick="window.location.href='form.php'" type="submit">Daftar Sekarang</button></center>
       </div>
     </nav>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol> -->
       <div class="carousel-inner" role="listbox">
-        <!-- <div class="carousel-item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div> -->
         <div class="carousel-item active">
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
@@ -85,24 +71,8 @@
             </div>
           </div>
         </div>
-        <!-- <div class="carousel-item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div> -->
       </div>
-      <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span> -->
+      
       </a>
     </div>
 
@@ -141,7 +111,7 @@
           <br><br>
           <p>A four-year, paid Technical Leadership Program designed to shape you into an elite software develioer, Through your traing and wor with top global technology companies, you'll master the professional and techinical skils needed to become a technology leader, botn on the continent and around the world.</p>
         </div>
-        <br><br>        
+        <br><hr><br>        
         <div class="process">
           <h2 style="text-transform: capitalize;">Coding Smart Roadmap</h2>
           <br><br>
@@ -149,22 +119,22 @@
             <div class="col-md-3" align="left">
               <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-controls="home">Seminar</a>
+                  <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-controls="home"><i class="fa fa-check tabs-icon"></i> Seminar</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">Student Selection</a>
+                  <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"><i class="fa fa-check tabs-icon"></i> Student Selection</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-controls="messages">Scholarship Selection</a>
+                  <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-controls="messages"><i class="fa fa-check tabs-icon"></i> Scholarship Selection</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">Workshop</a>
+                  <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings"><i class="fa fa-check tabs-icon"></i> Workshop</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">Incubation</a>
+                  <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings"><i class="fa fa-check tabs-icon"></i> Incubation</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">Internship</a>
+                  <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings"><i class="fa fa-check tabs-icon"></i> Internship</a>
                 </li>
               </ul>              
             </div>
@@ -178,101 +148,130 @@
                 <div class="tab-pane" id="settings" role="tabpanel">Setelah dibimbing selama 2 tahun, Digitalpreneur akan menjalani program Internship di perusahaan-perusahaan Startup berkualitas Internasional. Dalam masa Internship, Digitalpreneur mengaplikasikan semua materi yang diajarkan dalam masa Inkubasi.</div>
               </div>
             </div>
-          </div>
-          <br>
-          <hr>
-          <br>
-          <div align="left">                
-              <p><i class="fa fa-check" style="color:#27ae60;"></i> You must be a christian.</p>   
-
-              <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted, you must complete your one-year National Youth Service Corps (NYSC) before applying to Andela)</p>          
-
-              <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted.
-
-              <p><i class="fa fa-check" style="color:#27ae60;"></i> Most importantly, you must embody Andela’s values: Excellence, Passion, Integrity and Collaboration</p>
-          </div>
+          </div>          
         </div>
       </div>      
+      </div>
       
       <br>
       <hr>
       <br>
 
-      
-      <div class="container kerjasama" align="center">
-        <center><h1>Apply Now</h1></center>
-        <br>
-        <br>
-        <section class="row form" align="center" id="form"> 
-          <center>
-            <div class="row">
-              <div class="col-md-6">
-                <label for="name">Nama Kamu</label>
-                <input type="text" id="name" class="form-control" ><br>
-              </div>
-              <div class="col-md-6">
-                <label for="hp">No HP Kamu</label>
-                <input type="number" id="hp" class="form-control" ><br>
+      <div class="apply" align="center">
+        <h1>Apply Now</h1>
+
+        <br><br>
+        <div class="row">
+          <div class="col-md-4"><button class="btn btn-apply">Apply to CoSS Tanjung Priuk</button></div>
+          <div class="col-md-4"><button class="btn btn-apply">Apply to CoSS Kelapa Gading</button></div>
+          <div class="col-md-4"><button class="btn btn-apply">Apply to CoSS Kuningan</button></div>
+        </div>
+      </div>
+
+      <br>
+      <hr>
+      <br>
+      <div class="container">
+      <div class="hayley">
+          <center><h2>Technical Leadership Program</h2></center>
+          <br><br>
+          <div class="row">
+            <div class="col-md-3" align="left">
+              <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#overview" role="tab" aria-controls="overview"><i class="fa fa-check tabs-icon"></i> Overview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#philosophy" role="tab" aria-controls="philosophy"><i class="fa fa-check tabs-icon"></i> Philosophy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#technology" role="tab" aria-controls="technology"><i class="fa fa-check tabs-icon"></i> Technology</a>
+                </li>                
+              </ul>              
+            </div>
+            <div class="col-md-9">
+              <div class="tab-content">
+                <div class="tab-pane active" id="overview" role="tabpanel">Andela’s four-year Technical Leadership Program is a blend of personalized instruction, supported self-study and hands-on experience building real products. Instead of paying tuition, as you would for a traditional academic program, you’ll earn a competitive salary and benefits throughout your four years with Andela.
+
+                After successfully completing the initial training period, you’ll be fully prepared to start working with one of our clients as a full-time, distributed team member. During the remaining 3.5 years, you’ll apply your knowledge to client work, while receiving ongoing professional and technical development, coaching and mentorship.</div>
+                <div class="tab-pane" id="philosophy" role="tabpanel">We’ve built our program on the belief that brilliance is evenly distributed, but opportunity is not. We believe that real-world experience is invaluable and that professional skills are as critical as technical skills. We’ve created a blended learning environment (in-person and online) that encompasses the professional and technical skills you need to become Africa’s next generation of technology leaders:
+
+                <br><br>
+                <ul>
+                  <li>Supported self-study technical curricula</li>
+                  <li>Professional soft skills training</li>
+                  <li>1:1 guidance</li>
+                  <li>Realistic project simulations</li>
+                  <li>Mentorship from world-class senior trainers</li>
+                  <li>Peer learning groups that consist of other brilliant people with whom you’ll build lifelong friendships</li>
+                  <li>International client access</li>
+                </ul>
+                </div>
+                <div class="tab-pane" id="technology" role="tabpanel">Our technical curricula spans the five most in-demand programming languages:
+
+                <br><br>
+                <ul>
+                  <li>Ruby / Ruby on Rails</li>
+                  <li>Python / Django</li>
+                  <li>PHP / Laravel</li>
+                  <li>MEAN Stack</li>
+                  <li>Mobile Development (Android and iOS)</li>
+                </ul>
+                </div>                
               </div>
             </div>
-            <br><br><br>
+          </div>
+          <br>`
+          <hr>
+          <br>
+          <div align="left">
             <div class="row">
               <div class="col-md-6">
-                <label for="alamat">Alamat Kamu</label>
-                <input type="text" id="alamat" class="form-control" ><br>
+                <p><i class="fa fa-check" style="color:#27ae60;"></i> You must be a christian.</p>   
+
+                <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted, you must complete your one-year National Youth Service Corps (NYSC) before applying to Andela)</p>            
               </div>
               <div class="col-md-6">
-                <label for="email">Email Kamu</label>
-                <input type="email" id="email" class="form-control" ><br>
+                <p><i class="fa fa-check" style="color:#27ae60;"></i> Andela does not have any degree or diploma requirements. (Nigeria only: However, if you have completed university or have a Higher National Diploma from a Polytechnic, and have not been formally exempted.
+
+                <p><i class="fa fa-check" style="color:#27ae60;"></i> Most importantly, you must embody Andela’s values: Excellence, Passion, Integrity and Collaboration</p>
               </div>
             </div>
-            <br><br><br>
-            <div class="row">
-              <div class="col-md-6">
-                <label for="watson">Sebutkan Riwayat Pendidikanmu</label>
-                <input type="text" id="watson" class="form-control" ><br>
-              </div>
-              <div class="col-md-6">
-                <label for="emma_watson">Masukan Tanggal Lahirmu</label>
-                <input type="date" id="emma_watson" class="form-control" ><br>
-              </div>
-            </div>
-            <br><br><br>
-            <div class="row">
-              <div class="col-md-12">
-                <label for="alasan"><h3>Apa tujuanmu mengikuti Coding Smart School?</h3></label>
-                <textarea id="alasan" class="form-control" rows="4" style="width:70%">
-                </textarea>
-              </div>
-            </div>
-            <center><br><button class="btn btn-primary raised btn-lg" onclick="daftar()">DAFTAR</button></center>
-        </section>
+          </div>
+        </div>
+
         <br>
         <hr>
         <br>
-        <center><h1>Diinisiasi Oleh</h1></center>
-        <div class="row">
-          <div class="col-md-6"><img src="../img/inisiator/mercysmart.png" alt="MercySmart" class="inisiator"></div>
-          <div class="col-md-6"><img src="../img/inisiator/kominfo.png" alt="Kementrian Komunikasi dan Informatika Republik Indonesia" class="inisiator"></div>
+
+        <div class="benefits">
+          <div class="row" align="left">
+            <div class="col-md-6">
+              <span style="color: #FFA000;">Program Benefits</span>
+
+              <br><br>
+              <ul>
+                <li>Competitive monthly salary</li>
+                <li>High speed fibre internet</li>
+                <li>Financing plans for accommodations and a Macbook Pro</li>
+                <li>Breakfast and lunch Monday through Friday</li>
+                <li>Healthcare coverage</li>
+                <li>Savings account ($5,000 USD upon completion of Fellowship)</li>
+                <li>A community of excellence</li>
+                <li>A chance to change the world</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <span style="color: #FFA000;">Career Benefits:</span>
+
+              <br><br>
+              <p>We are training future leaders committed to helping others succeed. As you advance in the program, you’ll mentor and support the next generation of Andela fellows. The Technical Leadership Program prepares you for endless career paths, including founding your own company, moving into management positions at Andela, and taking leadership roles at local and global tech companies. Graduates become a part of an exclusive alumni network and have access to career support, advice and opportunities.</p>
+            </div>
+          </div>
+          <br><br>
+          <h3>Andela is not easy. Andela is a commitment, and in many ways a sacrifice. But it is a worthwhile one, and if you give it your all, you will become truly world-class.</h3>
+          <br><br>
         </div>
-      </div>      
-
-      <!-- <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 push-md-5">
-          <h2 class="featurette-heading">Coding Smart <span class="text-muted">Vocational</span></h2>
-          <p class="lead">Coding Smart memberikan kelas Vokasi di Jakarta, setiap hari Senin hingga Jumat, sekitar 5 jam per hari. Kurikulum Coding Smart dirancang untuk memberikan keterampilan pemrograman atau coding komputer kepada pengangguran lulusan SMA / SMK / Paket C / dan pengangguran terdidik lainnya agar mempunyai keahlian dan keterampilan yang meningkatkan kesejahteraannya dan berdampak pada ekonomi kreatif.
-</p>
-        </div>
-        <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid mx-auto aladin" data-src="holder.js/500x500/auto" alt="Generic placeholder image" style="opacity: 1;">
-        </div>
-      </div> -->
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
 
           </a>
         </div>
@@ -313,15 +312,11 @@
 
 
       <!-- FOOTER -->
-      <footer class="row boi" style="margin-left: 10px;margin-right: 10px;">
-        <div class="col-md-6">              
+      <footer class="row boi">
+        <div class="col-md-6" align="left">              
           <p class="footer-company-name">© 2017 Coding Smart. All Rights Reserved.</p>
         </div>
-        <div class="col-md-6" align="center">
-          <!-- <p class="footer-company-about">
-            <span>About the company</span>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-          </p> -->
+        <div class="col-md-6" align="right">
           <div class="footer-icons">
               <a href=""><i class="fa fa-2x fa-github"></i></a>
               <a href=""><i class="fa fa-2x fa-facebook"></i></a>
